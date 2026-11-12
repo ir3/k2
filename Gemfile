@@ -42,11 +42,11 @@ gem "thruster", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-#gem "tailwindcss"
+# gem "tailwindcss"
 
-gem 'haml-rails'
-#gem 'sass'
-gem 'dartsass-rails'
+gem "haml-rails"
+# gem 'sass'
+gem "dartsass-rails"
 
 gem "view_component"
 gem "view_component-contrib"
@@ -60,7 +60,7 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem "erb2haml"  
+  gem "erb2haml"
 end
 
 group :development do

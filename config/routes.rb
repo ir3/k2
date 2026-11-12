@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resource :sign_up
   resources :users
   resources :user_profiles
-  #root to: 'welcom#index'
+  # root to: 'welcom#index'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
